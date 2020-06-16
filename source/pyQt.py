@@ -11,7 +11,7 @@ if getattr(sys, 'frozen', False):
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from functools import partial
-import CUHA_logo  # 회색이여도 제대로 import 된것. 절대 지우지 말 것
+import CUHA_logo
 import font
 
 from design_1 import quiz_main
